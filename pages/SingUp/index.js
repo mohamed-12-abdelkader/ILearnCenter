@@ -55,6 +55,7 @@ import Link from 'next/link';
  
   
   setShowSignupPage(true)
+  setOpen(false)
     };
     const handleChange = (event) => {
       setAge(event.target.value);
